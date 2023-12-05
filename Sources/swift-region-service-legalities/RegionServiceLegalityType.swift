@@ -28,6 +28,7 @@ public enum RegionServiceLegalityType : CaseIterable {
     
     public var value : (any RegionServiceLegalityProtocol)? {
         switch self {
+        case .abortion: return Abortion()
         default: return nil
         }
     }

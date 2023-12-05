@@ -115,7 +115,7 @@ struct Abortion : RegionServiceLegalityProtocol {
     
     func yearOfData(for country: Country) -> Int {
         switch country {
-        default: return 2023
+        default: return 2019
         }
     }
     
